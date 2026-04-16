@@ -13,7 +13,7 @@ Simple library domain model built with Python and uv.
 
 All classes are organized in separate files under:
 
-- `/home/runner/work/library-management/library-management/src/library_management`
+- `src/library_management`
 
 ## Linting (Ruff)
 
