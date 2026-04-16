@@ -1,0 +1,20 @@
+[project]
+name = "library-management"
+version = "0.1.0"
+description = "Simple domain model for library management"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest==8.3.5",
+    "ruff==0.11.6",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
